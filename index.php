@@ -11,7 +11,7 @@
 <?php
 echo "PHP";
 echo "</br>";
-$name = "Patryk";
+$myname= "Patryk";
 $age = "20";
 
 $agereq = 18;
@@ -23,7 +23,24 @@ if($agereq >= 18){
 		echo "Nie jesteś pełnoletni";
 	}
 
-echo "</br> $name ";
+echo "</br> $myname </br>";
+
+
+for ($i = 1; $i <= 10; $i++) {
+    echo $i . " ";
+}
+
+// Wyświetli: 1 2 3 4 5 6 7 8 9 10
+
+echo "</br>";
+function powitanie($name) {
+    echo "Witaj, " . $name . "!";
+}
+
+powitanie("Patryk"); 
+
+// Wyświetli: Witaj, Patryk !
+
 ?>
 
 </body>
