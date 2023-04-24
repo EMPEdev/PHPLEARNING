@@ -10,7 +10,7 @@
 
 <?php
 echo "PHP";
-
+echo "</br>";
 $name = "Patryk";
 $age = "20";
 
@@ -23,6 +23,7 @@ if($agereq >= 18){
 		echo "Nie jesteś pełnoletni";
 	}
 
+echo "</br> $name ";
 ?>
 
 </body>
